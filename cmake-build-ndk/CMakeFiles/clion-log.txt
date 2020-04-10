@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_SYSTEM_NAME=Android -DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a -DCMAKE_ANDROID_NDK=/Users/jy/Downloads/chrome_download/android-ndk-r16b -DCMAKE_SYSTEM_VERSION=16 -DCMAKE_C_FLAGS= -DCMAKE_CXX_FLAGS= -DCMAKE_ANDROID_NDK_TOOLCHAIN_VERSION=clang -G "CodeBlocks - Unix Makefiles" /Users/jy/CLionProjects/MonoNativeHook
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk

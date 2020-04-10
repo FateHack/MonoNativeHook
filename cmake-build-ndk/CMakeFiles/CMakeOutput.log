@@ -1,0 +1,572 @@
+The target system is: Android - 16 - armv7-a
+The host system is: Darwin - 18.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/3.13.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d277e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d277e.dir/build.make CMakeFiles/cmTC_d277e.dir/build
+Building C object CMakeFiles/cmTC_d277e.dir/testCCompiler.c.o
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot  -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -o CMakeFiles/cmTC_d277e.dir/testCCompiler.c.o   -c /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d277e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d277e.dir/link.txt --verbose=1
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm   -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_d277e.dir/testCCompiler.c.o  -o cmTC_d277e 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_648e6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_648e6.dir/build.make CMakeFiles/cmTC_648e6.dir/build
+Building C object CMakeFiles/cmTC_648e6.dir/CMakeCCompilerABI.c.o
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot  -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -o CMakeFiles/cmTC_648e6.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_648e6
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_648e6.dir/link.txt --verbose=1
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm   -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_648e6.dir/CMakeCCompilerABI.c.o  -o cmTC_648e6 
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a;@armv7
+ "/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_648e6 /Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_648e6.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_648e6/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_648e6.dir/build.make CMakeFiles/cmTC_648e6.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_648e6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot  -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -o CMakeFiles/cmTC_648e6.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_648e6]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_648e6.dir/link.txt --verbose=1]
+  ignore line: [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm   -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_648e6.dir/CMakeCCompilerABI.c.o  -o cmTC_648e6 ]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@thumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@armv7]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a]
+  ignore line: [@armv7]
+  link line: [ "/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_648e6 /Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_648e6.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
+    arg [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-X] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_648e6] ==> ignore
+    arg [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+    arg [-L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+    arg [-L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a] ==> dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a]
+    arg [-L/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib]
+    arg [-L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a]
+    arg [-L/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib] ==> dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_648e6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+  collapse library dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+  collapse library dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+  collapse library dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a] ==> [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+  collapse library dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib] ==> [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a;/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a;/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c0fd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1c0fd.dir/build.make CMakeFiles/cmTC_1c0fd.dir/build
+Building C object CMakeFiles/cmTC_1c0fd.dir/feature_tests.c.o
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot  -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -std=c11 -o CMakeFiles/cmTC_1c0fd.dir/feature_tests.c.o   -c /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1c0fd
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c0fd.dir/link.txt --verbose=1
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm   -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_1c0fd.dir/feature_tests.c.o  -o cmTC_1c0fd 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d90eb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d90eb.dir/build.make CMakeFiles/cmTC_d90eb.dir/build
+Building C object CMakeFiles/cmTC_d90eb.dir/feature_tests.c.o
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot  -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -std=c99 -o CMakeFiles/cmTC_d90eb.dir/feature_tests.c.o   -c /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d90eb
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d90eb.dir/link.txt --verbose=1
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm   -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_d90eb.dir/feature_tests.c.o  -o cmTC_d90eb 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8984f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8984f.dir/build.make CMakeFiles/cmTC_8984f.dir/build
+Building C object CMakeFiles/cmTC_8984f.dir/feature_tests.c.o
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot  -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -std=c90 -o CMakeFiles/cmTC_8984f.dir/feature_tests.c.o   -c /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8984f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8984f.dir/link.txt --verbose=1
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm   -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_8984f.dir/feature_tests.c.o  -o cmTC_8984f 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3f7cb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3f7cb.dir/build.make CMakeFiles/cmTC_3f7cb.dir/build
+Building CXX object CMakeFiles/cmTC_3f7cb.dir/testCXXCompiler.cxx.o
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot   -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -o CMakeFiles/cmTC_3f7cb.dir/testCXXCompiler.cxx.o -c /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3f7cb
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f7cb.dir/link.txt --verbose=1
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm    -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_3f7cb.dir/testCXXCompiler.cxx.o  -o cmTC_3f7cb  "/Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49a4f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_49a4f.dir/build.make CMakeFiles/cmTC_49a4f.dir/build
+Building CXX object CMakeFiles/cmTC_49a4f.dir/CMakeCXXCompilerABI.cpp.o
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot   -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -o CMakeFiles/cmTC_49a4f.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_49a4f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49a4f.dir/link.txt --verbose=1
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm    -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_49a4f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_49a4f  "/Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a;@armv7
+ "/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_49a4f /Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_49a4f.dir/CMakeCXXCompilerABI.cpp.o /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a -lgcc -lc -lm -ldl /Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_49a4f/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_49a4f.dir/build.make CMakeFiles/cmTC_49a4f.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_49a4f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot   -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -o CMakeFiles/cmTC_49a4f.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_49a4f]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49a4f.dir/link.txt --verbose=1]
+  ignore line: [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm    -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_49a4f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_49a4f  "/Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl ]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@thumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@armv7]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a]
+  ignore line: [@armv7]
+  link line: [ "/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_49a4f /Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_49a4f.dir/CMakeCXXCompilerABI.cpp.o /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a -lgcc -lc -lm -ldl /Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
+    arg [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-X] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_49a4f] ==> ignore
+    arg [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+    arg [-L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+    arg [-L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a] ==> dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a]
+    arg [-L/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib]
+    arg [-L/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a]
+    arg [-L/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib] ==> dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_49a4f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [/Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a] ==> lib [/Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lm] ==> lib [m]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+  collapse library dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+  collapse library dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+  collapse library dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a] ==> [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+  collapse library dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib] ==> [/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+  implicit libs: [/Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a;gcc;c;m;dl]
+  implicit dirs: [/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a;/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a;/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b27c0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b27c0.dir/build.make CMakeFiles/cmTC_b27c0.dir/build
+Building CXX object CMakeFiles/cmTC_b27c0.dir/feature_tests.cxx.o
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot   -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -std=c++1z -o CMakeFiles/cmTC_b27c0.dir/feature_tests.cxx.o -c /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b27c0
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b27c0.dir/link.txt --verbose=1
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm    -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_b27c0.dir/feature_tests.cxx.o  -o cmTC_b27c0  "/Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c19f7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c19f7.dir/build.make CMakeFiles/cmTC_c19f7.dir/build
+Building CXX object CMakeFiles/cmTC_c19f7.dir/feature_tests.cxx.o
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot   -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -std=c++14 -o CMakeFiles/cmTC_c19f7.dir/feature_tests.cxx.o -c /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c19f7
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c19f7.dir/link.txt --verbose=1
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm    -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_c19f7.dir/feature_tests.cxx.o  -o cmTC_c19f7  "/Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db339/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_db339.dir/build.make CMakeFiles/cmTC_db339.dir/build
+Building CXX object CMakeFiles/cmTC_db339.dir/feature_tests.cxx.o
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot   -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -std=c++11 -o CMakeFiles/cmTC_db339.dir/feature_tests.cxx.o -c /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_db339
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db339.dir/link.txt --verbose=1
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm    -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_db339.dir/feature_tests.cxx.o  -o cmTC_db339  "/Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae4f3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ae4f3.dir/build.make CMakeFiles/cmTC_ae4f3.dir/build
+Building CXX object CMakeFiles/cmTC_ae4f3.dir/feature_tests.cxx.o
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot   -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include -isystem /Users/jy/Downloads/chrome_download/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -g -fPIE   -std=c++98 -o CMakeFiles/cmTC_ae4f3.dir/feature_tests.cxx.o -c /Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ae4f3
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae4f3.dir/link.txt --verbose=1
+/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/jy/Downloads/chrome_download/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jy/Downloads/chrome_download/android-ndk-r16b/platforms/android-16/arch-arm    -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_ae4f3.dir/feature_tests.cxx.o  -o cmTC_ae4f3  "/Users/jy/Downloads/chrome_download/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
