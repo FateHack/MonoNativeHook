@@ -6,9 +6,16 @@
 #include "utils/logger.h"
 #include <stdlib.h>
 #include <string.h>
-
+#include <fstream>
 
 using namespace std;
+
+struct _MonoImage {
+    int ref_count;
+    void *raw_data_handle;
+    char *raw_data;
+    int raw_data_len;
+};
 
 MonoImage *image = NULL; //方法所在的image
 
@@ -38,12 +45,26 @@ static void get_target_image(MonoAssembly *assembly, void *target_img_name) {
     }
 }
 
+//path为保存路径
+void dump_dll(const char *path, const char *dll_name) {
+    image = NULL;
+    mono_assembly_foreach((MonoFunc) get_target_image, (void *) dll_name);
+    if (image) {
+        ofstream out(path, ios::binary);
+        out.write(image->raw_data, image->raw_data_len);
+        out.close();
+    } else {
+        LOGE("get image failed");
+    }
+}
+
 MonoMethod *get_MonoMethod(std::vector<char *> vector) {
     char *imageName = vector[0];
     char *nameSpace = vector[1];
     char *className = vector[2];
     char *methodName = vector[3];
     MonoMethod *method = NULL;
+    image = NULL;
     //遍历所有程序集，并获取程序集 并传入回调函数get_target_image 拿到目标image指针
     mono_assembly_foreach((MonoFunc) get_target_image, (void *) imageName);
     if (image) {
@@ -57,12 +78,24 @@ MonoMethod *get_MonoMethod(std::vector<char *> vector) {
             full_method_name.append(methodName);
             //通过完整方法名获取方法描述符
             MonoMethodDesc *pDesc = mono_method_desc_new(full_method_name.c_str(), false);
-            //通过方法描述符在指定的MonoClass 寻找MonoMethod
-            method = mono_method_desc_search_in_class(pDesc, pClass);
-            //释放
-            mono_method_desc_free(pDesc);
-            return method;
+            if (pDesc) {
+                //通过方法描述符在指定的MonoClass 寻找MonoMethod
+                method = mono_method_desc_search_in_class(pDesc, pClass);
+                if (method) {
+                    //释放
+                    mono_method_desc_free(pDesc);
+                    return method;
+                } else {
+                    LOGE("method get failed");
+                }
+            } else {
+                LOGE("pDesc get failed");
+            }
+        } else {
+            LOGE("pClass get failed");
         }
+    } else {
+        LOGE("image get failed");
     }
     return NULL;
 }

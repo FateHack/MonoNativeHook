@@ -1,3 +1,0 @@
-/Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/rebuild_cache.dir
-/Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/edit_cache.dir
-/Users/jy/CLionProjects/MonoNativeHook/cmake-build-ndk/CMakeFiles/MonoNativeHook.dir

@@ -11,6 +11,8 @@ typedef struct _MonoAssembly MonoAssembly;
 typedef struct _MonoAssemblyName MonoAssemblyName;
 typedef struct _MonoTableInfo MonoTableInfo;
 
+
+
 typedef enum {
 	MONO_IMAGE_OK,
 	MONO_IMAGE_ERROR_ERRNO,

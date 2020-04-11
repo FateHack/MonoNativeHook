@@ -74,7 +74,7 @@ void hook(MonoString *target, MonoString *replace, MonoString *old) {
     AKHookFunction(old_method_pointer, ori_target_method, NULL);
     //将donet中的方法名与native层的method挂钩，可以直接在donet层调用,目的是为了在donet完成操作hook时，使用old_method时，调用的是native层的原目标函数
     mono_add_internal_call(old_name, old_method);
-    LOGE("hook success!");
+    LOGD("hook success!");
 
 }
 
@@ -118,7 +118,7 @@ void *mono_thread(void *args) {
     memset(buff, 0, length);
     dllStream.read(buff, length);
     MonoImage *pImage = mono_image_open_from_data_with_name(buff, length, false, NULL, false, dllParam->imageName);
-    if (pImage) {
+    if (!pImage) {
         LOGE("image is null");
         return NULL;
     }
