@@ -45,7 +45,7 @@ static void get_target_image(MonoAssembly *assembly, void *target_img_name) {
     }
 }
 
-//path为保存路径
+//path为保存路径. dll_name : Assembly-CSharp 、Assembly-CSharp-firstpass
 void dump_dll(const char *path, const char *dll_name) {
     image = NULL;
     mono_assembly_foreach((MonoFunc) get_target_image, (void *) dll_name);
